@@ -25,9 +25,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/ag-grid-community/styles/ag-grid.css",
+              "node_modules/ag-grid-community/styles/ag-theme-alpine.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/ag-grid-community/dist/ag-grid-community.min.js",
+              "node_modules/ag-grid-angular/bundles/ag-grid-angular.umd.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "8e3d4250-3f65-4509-847f-3a2664bf3f07"
   }
 }

@@ -1,0 +1,24 @@
+.header-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+}
+
+.body-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; 
+  }
+
+.pass-div{
+    margin-top: 20px
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px
+
+}
